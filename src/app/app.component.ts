@@ -2,9 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  template: '<app-parent></app-parent>',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  title = 'Angular_lifecycle1';
-}
+export class AppComponent {}
